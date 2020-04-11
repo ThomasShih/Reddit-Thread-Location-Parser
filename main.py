@@ -10,7 +10,7 @@ if __name__ == "__main__":
     reddit = redditScraper()
     reddit.getSubmission("https://old.reddit.com/r/solotravel/comments/fyfz0l/the_most_atmospheric_city_youve_visited/")
     reddit.getComments()
-    reddit.cleanComments()
+    #reddit.cleanComments()
 
     print("Intialitizing Geolocater")
     geoLocater = geoLocater(method)

@@ -15,14 +15,13 @@ class redditScraper(stringCleaner):
         for parentComment in self.submission.comments:
             self.comments.append(parentComment.body)
 
-    def cleanComments(self):
-        for index,comment in enumerate(self.comments):
-            comment = self.removeSpecialCharacters(comment).lower()
-            self.comments[index] = self.removeFillerWords(comment)
+    # def cleanComments(self):
+    #     for index,comment in enumerate(self.comments):
+    #         comment = self.removeSpecialCharacters(comment).lower()
+    #         self.comments[index] = self.removeFillerWords(comment)
 
 if __name__ == "__main__":
     reddit = redditScraper()
     reddit.getSubmission("https://old.reddit.com/r/solotravel/comments/fyfz0l/the_most_atmospheric_city_youve_visited/")
     reddit.getComments()
-    reddit.cleanComments()
     print(reddit.comments)

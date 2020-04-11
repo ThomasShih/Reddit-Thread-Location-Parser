@@ -9,15 +9,14 @@ class geoLocater:
     def get(self,searchQuery):
         for i in range(self.tries):
             try: return self.geolocator.geocode(searchQuery,language="en")
-            except: pass
+            except Exception as e: print(Exception)
         return None
     def getFromComment(self,comment):
         results=[]
-        for searchEntry in SearchEntryGenerator(2,comment):
+        for searchEntry in SearchEntryGenerator(comment,want='all'):
             result = self.get(searchEntry)
-            if result and result not in results:
+            if result:
                 results.append(result.raw)
-
         return results
 
 

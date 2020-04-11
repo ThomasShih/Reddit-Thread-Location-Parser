@@ -1,5 +1,301 @@
 ,display_name,type,lon,lat
-0,"Georgia, United States of America",administrative,-83.1137366,32.3293809
-1,Armenia,administrative,44.6736646,40.7696272
-2,Afghanistan,administrative,66.2385139,33.7680065
-3,"Dalecarlia, Region Svealand, Sweden",administrative,14.215087316959057,61.060377849999995
+0,"Bruges, West Flanders, Flanders, Belgium",administrative,3.226772,51.2085526
+1,"Ghent, East Flanders, Flanders, Belgium",administrative,3.7250121,51.0538286
+2,Belgium,administrative,4.6667145,50.6402809
+3,United States,administrative,-100.4458825,39.7837304
+4,France,administrative,1.8883335,46.603354
+5,"Lisbon, Grande Lisboa, Área Metropolitana de Lisboa, Portugal",administrative,-9.1365919,38.7077507
+6,Portugal,administrative,-7.8896263,40.0332629
+8,"Centre-Loire Valley, Metropolitan France, France",administrative,1.7324062,47.5490251
+9,"Coyoacán, Mexico City, Mexico",administrative,-99.15106340693589,19.32804005
+10,Australia,administrative,134.755,-24.7761086
+11,Chile,administrative,-71.3187697,-31.7613365
+12,Lesotho,administrative,28.3350193,-29.6039267
+13,"Rome, Roma Capitale, Italy",administrative,12.4829321,41.8933203
+14,"Mexico City, Cuauhtémoc, Mexico City, 06060, Mexico",city,-99.1331785,19.4326296
+15,"Chapultepec, Mexico",administrative,-99.55754492187062,19.20413955
+17,Romania,administrative,24.6859225,45.9852129
+18,"Juárez, Michoacán, Mexico",administrative,-100.46459243844754,19.29348285
+19,"Sarajevo, New Sarajevo municipality, City of Sarajevo, Sarajevo Canton, Federation of Bosnia and Herzegovina, 71000, Bosnia and Herzegovina",city,18.3866868,43.8519774
+20,"El Super, East Los Angeles, Los Angeles County, California, United States of America",retail,-118.1919475801555,34.0412262
+21,"Tbilisi, 0136, Georgia",city,44.8014495,41.6934591
+22,"Pristina, Municipality of Pristina, Kosovo",administrative,21.1640849,42.6638771
+23,Bosnia and Herzegovina,administrative,17.5961467,44.3053476
+24,"Eastern European, 199b, Kettering Road, Phippsville, Northampton, Northamptonshire, East Midlands, England, NN1 4BP, United Kingdom",convenience,-0.8827874,52.2461569
+25,"Véry, Verdun, Meuse, Grand Est, Metropolitan France, 55270, France",administrative,5.0678397,49.2495717
+27,Kosovo,administrative,20.9021231,42.5869578
+28,Georgia,administrative,44.0287382,41.6809707
+30,"Copenhagen, Copenhagen Municipality, Capital Region of Denmark, 1357, Denmark",city,12.5700724,55.6867243
+31,"Edinburgh, City of Edinburgh, Scotland, EH1 3EG, United Kingdom",city,-3.1883749,55.9533456
+32,United Kingdom,country,-3.2765753,54.7023545
+33,Denmark,administrative,10.3333283,55.670249
+36,"Waa, Konshisha, Benue, Nigeria",village,8.716667,7.1
+38,"Base aérienne 120 Cazaux, Rue Jean Dagros, Lotissement Les Berges du Lac, Jaumard, La Teste-de-Buch, Arcachon, Gironde, New Aquitaine, Metropolitan France, 33260, France",aerodrome,-1.110595808783242,44.539950399999995
+39,"Amazing, 9, Carrer del Marqués de Campo, La Pedrera, Dénia, la Marina Alta, Alacant / Alicante, Valencian Community, 03700, Spain",restaurant,0.1076217,38.8401991
+40,"Aires, São João da Ponta, Microrregião de Salgado, Mesorregião de Marajó, Pará, North Region, Brazil",hamlet,-47.9324683,-0.8801767
+41,Slovenia,administrative,14.4808369,45.8133113
+42,"Ljubljana, Upravna Enota Ljubljana, Slovenia",administrative,14.5068602,46.0499803
+43,Argentina,administrative,-64.9672817,-34.9964963
+44,"San Telmo, Autonomous City of Buenos Aires, Argentina",administrative,-58.37375,-34.6214013
+46,Germany,administrative,10.4234469,51.0834196
+47,Austria,administrative,13.199959,47.2000338
+48,"Salzburg, 5020, Austria",city,13.0464806,47.7981346
+49,Italy,administrative,12.674297,42.6384261
+50,"Venice, Venezia, Veneto, Italy",administrative,12.3345898,45.4371908
+53,"Oaxaca, Mexico",administrative,-96.5,17
+55,"Tallinn, Harju maakond, 10146, Estonia",city,24.7453688,59.4372155
+56,"Helsinki Cathedral, 29, Unioninkatu, City center, Kluuvi, Southern major district, Helsinki, Helsinki sub-region, Uusimaa, Mainland Finland, 00170, Finland",place_of_worship,24.952172790356798,60.17041695
+57,"Helsinki, Helsinki sub-region, Uusimaa, Mainland Finland, Finland",administrative,24.9425769,60.1674098
+58,Finland,administrative,25.9209164,63.2467777
+59,Estonia,country,25.3319078,58.7523778
+60,"town hall, 10, Kale Nagusia, Lizarragabengoa, Etxarri-Aranatz, Navarre, 31820, Spain",townhall,-2.0645920949936576,42.90743255
+61,Hungary,administrative,19.5060937,47.1817585
+62,"Serbia, Donje Komarice, Kragujevac, Kragujevac City, Sumadija Administrative District, Central Serbia, Serbia",claimed_administrative,21.07657433209902,44.024322850000004
+63,"Belgrade, City of Belgrade, Central Serbia, 11000, Serbia",city,20.4568974,44.8178131
+64,"Budapest, Central Hungary, Hungary",administrative,19.14607278448202,47.48138955
+68,"Royal Opera House, Bow Street, St Clement Danes, Covent Garden, City of Westminster, London, Greater London, England, WC2E 9DD, United Kingdom",attraction,-0.12254367918576929,51.512873600000006
+69,Croatia,administrative,17.0118954,45.5643442
+71,Netherlands,administrative,5.7480821,52.5001698
+72,"Florence, Metropolitan City of Florence, Tuscany, Italy",administrative,11.2555757,43.7698712
+73,South Africa,administrative,24.991639,-28.8166236
+74,"Amsterdam, North Holland, Netherlands, The Netherlands",administrative,4.8936041,52.3727598
+75,"Soho, London, Greater London, England, United Kingdom",suburb,-0.1311754,51.5131628
+76,"London, Greater London, England, SW1A 2DX, United Kingdom",city,-0.1276474,51.5073219
+77,Canada,administrative,-107.9917071,61.0666922
+79,"Dubrovnik, Grad Dubrovnik, Dubrovnik-Neretva County, 20000, Croatia",town,18.093652,42.6499651
+83,"Lviv, Halytskyi District, Lviv City Council, Lviv Oblast, Ukraine",administrative,24.0315921,49.841952
+84,"European, 161, Spring Street, Melbourne City, City of Melbourne, Victoria, 3000, Australia",restaurant,144.972543,-37.810937
+85,Ukraine,administrative,31.2718321,49.4871968
+89,"Krakow, Lesser Poland Voivodeship, Poland",administrative,19.997153435836697,50.0469432
+90,Poland,administrative,19.134422,52.215933
+92,Colombia,administrative,-73.783892,2.8894434
+94,"Medellín, Zona Urbana Medellín, Medellín, Valle de Aburrá, Antioquia, 0500, Colombia",city,-75.573553,6.2443382
+95,"The Great, Ban Nong Samo, Prachuap Khiri Khan Province, Thailand",residential,99.9169816667648,12.57365365
+96,"Tangier, pachalik de Tanger طنجة, Prefecture of Tangier - Assilah, Tangier-Tetouan-Al Hoceima, 90013, Morocco",city,-5.803792,35.777103
+98,"Fez, Pachalik du Fes, Préfecture de Fès عمالة فاس, Fez-Meknes, Morocco",administrative,-5.0161926,34.0346534
+99,"Chefchaouen, Chefchaouen Province, Tangier-Tetouan-Al Hoceima, Morocco",administrative,-5.2766582971063976,35.1700832
+100,Morocco,administrative,-7.3362482,31.1728205
+101,"Marrakesh, Pachalik de Marrakech, Préfecture de Marrakech عمالة مراكش, Marrakech-Safi, 40034, Morocco",city,-7.9891608,31.6258257
+102,"Casablanca, préfecture d'arrondissements de Casablanca-Anfa عمالة مقاطعات الدار البيضاء أنفا, Pachalik de Casablanca, Prefecture of Casablanca, Casablanca-Settat, 20 000, Morocco",city,-7.6187768,33.5950627
+103,"Essaouira, Pachalik d'Essaouira باشوية الصويرة, Essaouira Province, Marrakech-Safi, 44100, Morocco",city,-9.7620903,31.5118281
+106,"Рамадан, Сарыагашский район, Turkistan Region, 31, Kazakhstan",river,69.2016293,41.4684518
+107,"Catholic Church, 40, Auenbruggerplatz, Univiertel, Geidorf, Graz, Styria, 8036, Austria",place_of_worship,15.465785250492967,47.08265795
+109,Spain,administrative,-4.8380649,39.3262345
+110,"Cartagena, Cartagena de Indias, Bolívar, 3110, Colombia",city,-75.5271224,10.4195841
+112,"Spanish, Algoma District, Northeastern Ontario, Ontario, P0P 2A0, Canada",administrative,-82.347307,46.193239
+113,"Istanbul, Marmara Region, Turkey",administrative,29.052495,41.0766019
+114,"culture, Tchologo, Savanes, Côte d'Ivoire",farmland,-5.017182339629141,9.94501415
+115,Turkey,administrative,34.9249653,38.9597594
+116,"Julian Alps, Tolmin, Slovenia",region,13.754471928283865,46.224121
+117,"Bonus, Allegheny Township, Butler County, Pennsylvania, 16409, United States of America",hamlet,-79.7164385,41.117562
+120,"Prague, okres Hlavní město Praha, Hlavní město Praha, Prague, Czech Republic",administrative,14.4212535,50.0874654
+121,Czechia,administrative,15.4749544,49.8167003
+123,"New Orleans, Orleans Parish, Louisiana, United States of America",administrative,-90.0701156,29.9499323
+124,"Mardi Gras, Commune Léogâne, Arrondissement de Léogâne, Département de l'Ouest, Haiti",hamlet,-72.5948726,18.428225
+126,"Nola, Napoli, Campania, 80035, Italy",administrative,14.5327402,40.9210826
+127,"Paris, Ile-de-France, Metropolitan France, France",administrative,2.3514616,48.8566969
+129,"French, Giles County, Virginia, United States of America",hamlet,-80.8706336,37.2959541
+130,"Montmarte, 327, 7th Street Southeast, Southeast, Capitol Hill, Washington D.C., Washington, Washington, D.C., 20003, United States of America",restaurant,-76.9964456,38.8853524
+131,"Jazz, Prudnik, gmina Prudnik, powiat prudnicki, Opole Voivodeship, 48-200, Poland",weir,17.5836293,50.3224081
+132,"French Southern and Antarctic Lands, France",administrative,69.62275903679347,-49.237441950000004
+137,"Berlin, Germany",administrative,13.3888599,52.5170365
+139,Grenada,administrative,-61.6904045,12.1360374
+140,Nicaragua,administrative,-85.2936911,12.6090157
+142,"Hanoi, Vietnam",administrative,105.8544441,21.0294498
+144,Vietnam,administrative,108.4265113,13.2904027
+148,"Porto, Área Metropolitana do Porto, North, 4000-274, Portugal",city,-8.6107884,41.1494512
+149,Brazil,administrative,-53.2,-10.3333333
+151,"Barcelona, Barcelonès, Barcelona, Catalonia, 08001, Spain",administrative,2.1774322,41.3828939
+152,"Luang Prabang, Luang Prabang District, Luang Prabang, 10000, Laos",city,102.135898,19.8887438
+155,Venezuela,administrative,-66.1109318,8.0018709
+156,Guatemala,administrative,-89.8988087,15.6356088
+157,"La Antigua, 24796, Spain",administrative,-76.079036,6.7152725
+158,"Jerusalem, Jerusalem District, Israel",city,35.2250786,31.778345
+159,Israel,administrative,34.8667654,31.5313113
+162,"Kyoto, Kyoto Prefecture, Japan",administrative,135.7556075,35.021041
+163,Japan,administrative,139.2394179,36.5748441
+165,"Bogota, Bogota Capital District, 110321, Colombia",city,-74.0760439,4.59808
+173,"Bars, Sarlat-la-Canéda, Dordogne, New Aquitaine, Metropolitan France, 24210, France",administrative,1.0633322,45.0999478
+175,"Zagreb, City of Zagreb, Croatia",administrative,15.977048,45.813177
+177,"Valparaíso, Provincia de Valparaíso, Valparaiso Region, Chile",administrative,-71.6196749,-33.0458456
+180,"Cusco, Province of Cusco, Cusco, 08001, Peru",city,-71.9785356,-13.5170887
+181,Peru,administrative,-75.0458515,-6.8699697
+195,"Embassy of the Federal Republic of Germany, 1506, Ciclovía Horacio, Del Bosque, Miguel Hidalgo, Mexico City, 11530, Mexico",diplomatic,-99.20521368556479,19.4347018
+202,"Tokyo, Japan",administrative,139.7594549,35.6828387
+207,"City of Melbourne, Victoria, Australia",administrative,144.9631608,-37.8142176
+209,"Tel Aviv-Yafo, Tel Aviv District, Israel",administrative,34.7805274,32.0804808
+211,"Osaka Prefecture, Japan",administrative,135.490357,34.6198813
+212,"New York, United States of America",administrative,-74.0060152,40.7127281
+213,"Seville, Sevilla, Andalusia, Spain",administrative,-5.9953403,37.3886303
+216,"Savannah, Chatham County, Georgia, United States of America",administrative,-81.0911768,32.0809263
+218,"Český, Stupava, District of Malacky, Region of Bratislava, 90031, Slovakia",locality,17.0134747,48.267015
+219,"Český Krumlov, okres Český Krumlov, Jihočeský kraj, Southwest, Czech Republic",administrative,14.316197791106362,48.805114950000004
+221,Panama,administrative,-81.1308434,8.559559
+222,"Arequipa, Province of Arequipa, Arequipa, Peru",administrative,-71.5369607,-16.3988667
+224,"Nam Khan, Phou Kout District, Xiangkhouang Province, Laos",river,103.1576131,19.8474896
+225,"Mekong, Nga District, Oudomxay, 0600, Laos",river,101.9926849,20.0559977
+228,Laos,administrative,103.378253,20.0171109
+229,"Chinese, Ulapan, Melinggih, Bali, Indonesia",cemetery,115.23368569206687,-8.4305889
+230,"(guess), Town of Putnam Valley, Putnam County, New York, United States of America",stream,-73.8312632,41.457925
+233,"Gulou District, Jiangsu, China",administrative,118.7717823,32.0736
+234,China,administrative,104.999927,35.000074
+235,"Sanlitun, 深沟, Niuwangmiao, Chaoyang District, Beijing, 100027, China",neighbourhood,116.4488126,39.9361049
+236,"Lan Kwai Fong, Central, Hong Kong, Central and Western District, Hong Kong Island, Hong Kong, China",city_block,114.1556394,22.2809434
+237,"Houhai Lake, Houhaibeiyuan, Shichahai, Xicheng District, Beijing, 100032, China",water,116.38007090617015,39.94061655
+238,"Guomao, 国贸桥, 深沟, Beijing, Chaoyang District, Beijing, 100022, China",station,116.4556474,39.9070164
+239,"New Year, Fergus County, Montana, United States of America",hamlet,-109.2904537,47.1719201
+240,"Hong Kong, Central and Western District, Hong Kong Island, Hong Kong, 999077, China",city,114.1628131,22.2793278
+241,"Beijing, Dongcheng District, Beijing, 100010, China",city,116.3912757,39.906217
+242,Russia,administrative,97.7453061,64.6863136
+244,"Zhongshan Road, 中山路街道, Shinan District, Qingdao City, Shandong, 266001, China",primary,120.3137136,36.0656218
+246,Cuba,administrative,-80.8328748,23.0131338
+247,"Cuban, Gode, Unknown, Somali Region, Ethiopia",locality,43.54889,6.01194
+249,"Havana, La Habana Vieja, Havana, 24000, Cuba",city,-82.3589631,23.135305
+254,Europe,continent,10,51
+257,"Izmir, Aegean Region, 35240, Turkey",city,27.1434119,38.4147331
+258,South Korea,country,127.6961188,36.638392
+259,"Seoul, South Korea",administrative,126.9782914,37.5666791
+262,"Boulder, Boulder County, Colorado, United States of America",administrative,-105.2705456,40.0149856
+263,"Colorado, United States of America",administrative,-105.6077167,38.7251776
+267,Singapore,administrative,103.8194992,1.357107
+268,"Merlion Park, Clarke Quay, Raffles Place, Singapore, Central, Singapore",park,103.85420703682163,1.28572965
+272,"Vienna, 1010, Austria",city,16.3725042,48.2083537
+274,Thailand,administrative,100.83273,14.8971921
+275,"Bangkok, Phra Nakhon District, 10200, Thailand",city,100.493087,13.7542529
+276,"Athens, Municipality of Athens, Regional Unit of Central Athens, Region of Attica, Attica, 10667, Greece",city,23.7283052,37.9839412
+277,"Srinagar, Srinagar (South), Srinagar, Jammu and Kashmir, 190010, India",city,74.8204443,34.0747444
+279,India,administrative,78.6677428,22.3511148
+280,"Delhi, Kotwali Tehsil, Central Delhi, Delhi, 110006, India",city,77.2219388,28.6517178
+281,Greece,administrative,21.9877132,38.9953683
+289,"Bologna, Emilia-Romagna, Italy",administrative,11.3430347,44.4936714
+290,Philippines,administrative,122.7312101,12.7503486
+293,"Maillé, Fontenay-le-Comte, Vendée, Pays de la Loire, Metropolitan France, 85420, France",administrative,-0.7890064,46.3423674
+294,"Chiange, Huíla, Angola",hamlet,13.8903984,-15.7343768
+297,"جامة, سليانة الشمالية, Siliana, Tunisia",administrative,9.30425398949975,36.0934241
+302,"Easyjet, North Side Road, Wrington, Felton, North Somerset, South West England, England, BS48 3DY, United Kingdom",checkin,-2.7108979,51.3863421
+303,"Valletta, South Eastern Region, Malta",administrative,14.5136759,35.8989818
+304,"Sapporo, Ishikari Subprefecture, Hokkaidō Prefecture, Japan",administrative,141.3542924,43.061936
+307,"Orvieto, Terni, Umbria, 05018, Italy",administrative,12.1087907,42.7186152
+314,"Embassy of Spain, 401/4, Badeniho, Hradčany, Prague, okres Hlavní město Praha, Hlavní město Praha, Prague, 17000, Czech Republic",embassy,14.408173407024794,50.0972813
+315,"Avenida Condes de Barcelona, Monte Estoril, Estoril, Cascais e Estoril, Cascais, Lisbon, Grande Lisboa, Área Metropolitana de Lisboa, 2765-273, Portugal",tertiary,-9.3911192,38.7138676
+322,"Basilique du Sacré-Cœur, 35, Rue du Chevalier de la Barre, Château Rouge, Quartier de Clignancourt, Paris, Ile-de-France, Metropolitan France, 75018, France",place_of_worship,2.3430153448835087,48.88680575
+327,"Amritsar, Amritsar I Tahsil, Amritsar, Punjab, 143001, India",city,74.8736788,31.6343083
+328,"Rio de Janeiro, Região Geográfica Imediata do Rio de Janeiro, Região Metropolitana do Rio de Janeiro, Região Geográfica Intermediária do Rio de Janeiro, Rio de Janeiro, Southeast Region, Brazil",administrative,-43.2093727,-22.9110137
+330,"Janeiro, San Zenón, Magdalena, Colombia",village,-74.31533632143822,9.31994395
+337,"Latin, Općina Plaški, Karlovac County, 47304, Croatia",village,15.3666841,45.1154321
+346,"Пай, Ладвинское сельское поселение, Äänisenranta District, Republic of Karelia, Northwestern Federal District, 185518, Russia",river,34.578474,61.293736
+348,Indonesia,administrative,117.8902853,-2.4833826
+349,"Ubud, Bali, 88571, Indonesia",town,115.2639576,-8.5080922
+351,South Korea,administrative,127.79654346305617,35.7724185
+352,"Francisco, West Eastwood Avenue, Ravenswood Manor, Albany Park, Chicago, Cook County, Illinois, 60625, United States of America",station,-87.7017658,41.9661531
+354,Cambodia,administrative,104.869423,13.5066394
+355,"asia, corn street, Witney, West Oxfordshire, Oxfordshire, South East, England, OX28 6DB, United Kingdom",restaurant,-1.4887629091318098,51.7835586
+356,"Vientiane, Vientiane Capital, Chanthabuly District, Vientiane Prefecture, 01003, Laos",city,102.6133707,17.9640988
+357,"Ho Chi Minh City, District 1, Ho Chi Minh City, 00084, Vietnam",city,106.7017555,10.7758439
+359,Malaysia,administrative,102.2656823,4.5693754
+361,"Chūbu Centrair International Airport, Tokoname, Aichi Prefecture, 479-0881, Japan",island,136.81136335112637,34.858719699999995
+362,"Phnom Penh, Khan Daun Penh, Phnom Penh, 11213, Cambodia",city,104.9224426,11.568271
+363,"Buddhist, УБ - Дархан, Дугана хад, Bornuur, Selenge, Mongolia",place_of_worship,106.1315808,48.5186025
+365,"Kuala Lumpur, Malaysia",administrative,101.6942371,3.1516964
+366,"Yufuin, 鳥越湯布院線, 湯布院町塚原, Yufu, Oita Prefecture, 879-5114, Japan",station,131.3549106,33.2624838
+368,"Saint Petersburg, Центральный район, Saint Petersburg, Northwestern Federal District, 190000, Russia",city,30.316229,59.938732
+369,"Palace Square, Palace District, Центральный район, Saint Petersburg, Northwestern Federal District, 191186, Russia",living_street,30.31569736544658,59.939095449999996
+372,Afghanistan,administrative,66.2385139,33.7680065
+373,"Středočeský kraj, Central Bohemia, Czech Republic",administrative,13.83074794209991,50.0601579
+376,"de Pijp, Amsterdam, North Holland, Netherlands, The Netherlands",neighbourhood,4.896946171061886,52.3542396
+397,"Wengen, Verwaltungskreis Interlaken-Oberhasli, Verwaltungsregion Oberland, Bern, 3823, Switzerland",village,7.9217237,46.6054411
+399,"Brooklyn, Kings County, New York, United States of America",administrative,-73.9495823,40.6501038
+400,"Williamsburg, Virginia, United States of America",administrative,-76.69448606443117,37.27892105
+417,"Antilles Dry Cleaning, Winston Churchillweg, Juanota, Dein, Kanga/Dein, Curacao, 0000CW, The Netherlands",dry_cleaning,-68.94047234929069,12.1546009
+423,"Orléans, Cumberland, Ottawa, Eastern Ontario, Ontario, Canada",administrative,-75.5100002,45.4810323
+429,"Pelourinho, Centro, Salvador, Microrregião de Salvador, Região Metropolitana de Salvador, Mesorregião do Recôncavo baiano, Bahia, Northeast Region, 40020-280, Brazil",suburb,-38.5103773,-12.9739859
+431,El Salvador,administrative,-88.9140683,13.8000382
+435,"Madrid, Área metropolitana de Madrid y Corredor del Henares, Community of Madrid, 28001, Spain",administrative,-3.7035825,40.4167047
+439,"Nevsky prospect, Apraksin Dvor, округ № 78, Центральный район, Saint Petersburg, Northwestern Federal District, 190000, Russia",primary,30.3338935,59.9343655
+440,"York Galleria Mall, 2899, Whiteford Road, Barwood, Springettsbury Township, York, Pennsylvania, 17402, United States of America",mall,-76.6757423,39.989058
+448,"La Paz, Pedro Domingo Murillo, La Paz, Bolivia",administrative,-68.1336229,-16.4955455
+449,"Louisiana, United States of America",administrative,-92.007126,30.8703881
+454,"Gay, Gaysky District, Orenburg Oblast, Volga Federal District, Russia",town,58.440517,51.471443
+459,"Guangzhou, Yuexiu District, Guangzhou City, Guangdong, 510030, China",city,113.2592945,23.1301964
+460,"Inside, Calle de la Vega, Chiclana de la Frontera, Bay of Cádiz, Cádiz, Andalusia, 11130, Spain",clothes,-6.1479746,36.4207974
+464,"The American, Point Breeze, Baltimore, Maryland, United States of America",construction,-76.56346293974545,39.27982875
+465,"Good, Frederick County, Virginia, 22625, United States of America",hamlet,-78.361118,39.3575994
+467,"Old Quarter, Hàng Đào, Hanoi, Hoan Kiem District, 111000, Vietnam",quarter,105.8506783,21.0340608
+470,"Lawrence, Douglas County, Kansas, United States of America",administrative,-95.2359496,38.9719384
+471,"Kansas, United States of America",administrative,-98.5821872,38.27312
+478,"Santiago Compostela, Urbanización Rio Grande, Samborondón, Guayas, 092301, Ecuador",residential,-79.8620091,-2.149045
+480,"Wallis and Futuna, RT 1, Vailala, Wallis and Futuna, France",maritime,-178.08997342208266,-14.30190495
+481,"Burhaniye, Zara, Sivas, Central Anatolia Region, Turkey",village,37.641007,39.975353
+482,"Western Wall Plaza, Old City, Jerusalem, Jerusalem District, no, Israel",religious,35.233922482041855,31.776473699999997
+485,"Carmel Market, HaCarmel, Tel Aviv, Shabazi, Tel Aviv-Yafo, Tel Aviv District, no, Israel",marketplace,34.768552617892354,32.0683679
+487,"Bandar Udara Sultan Aji Muhammad Sulaiman Sepinggan, Jalan Marsma Iswahyudi, Damai Bahagia, East Kalimantan, 76113, Indonesia",aerodrome,116.8964722519584,-1.26662075
+489,"Geneva, Switzerland",administrative,6.1466014,46.2017559
+490,Switzerland,administrative,8.2319736,46.7985624
+491,"Perfect, 2, Dorpplaats, Boortmeerbeek, Flemish Brabant, Flanders, 3190, Belgium",pub,4.572874,50.9814098
+498,"Bilbao, Greater Bilbao, Biscay, Basque Country, Spain",administrative,-2.9349915,43.2630051
+502,"Brussels, Ville de Bruxelles - Stad Brussel, Brussels-Capital, Belgium",administrative,4.3674366933879565,50.8436709
+505,"ETC, Stratton St. Margaret, Stratton St Margaret, Swindon, South West England, England, SN3 4NS, United Kingdom",commercial,-1.7517869107108903,51.58149335
+509,"Danube, Budapest, Central Hungary, 1007, Hungary",river,19.0403881,47.5220728
+511,Pakistan,administrative,71.247499,30.3308401
+512,"Lahore, Lahore District, Punjab, 531, Pakistan",city,74.3141775,31.5656079
+515,"Florida, Augustine Grove, San Agustin 2, Dasmariñas, Cavite, Calabarzon, 4114, Philippines",residential,120.9493896,14.3228294
+516,"Kusatsu, Shiga Prefecture, 5250034, Japan",suburb,135.96046,35.0179088
+520,"Nur-Sultan, район ""Есиль"", 010000, Kazakhstan",city,71.4306682,51.1282205
+521,"Naypyitaw, Myanmar",state,96.265883,20.2807085
+522,Kazakhstan,administrative,65.2093197,47.2286086
+523,Myanmar,administrative,95.9999652,17.1750495
+526,"Nice, Maritime Alps, Provence-Alpes-Côte d'Azur, Metropolitan France, France",administrative,7.2683912,43.7009358
+527,"Old Town, Prague, okres Hlavní město Praha, Hlavní město Praha, Prague, Czech Republic",administrative,14.4178391,50.0842845
+536,"Palermo, Sicily, Italy",administrative,13.3524434,38.1112268
+540,"Sicily, Italy",administrative,14.155048,37.587794
+545,"Genoa, Liguria, Italy",administrative,8.9338624,44.40726
+552,"San Gimignano, Siena, Tuscany, 53037, Italy",administrative,11.0432115,43.4677993
+554,"Volterra, Pisa, Tuscany, Italy",administrative,10.860019,43.400337
+557,"Phuket Province, Thailand",state,98.3529292,7.9366015
+559,"Riga, Vidzeme, Latvia",administrative,24.1051846,56.9493977
+560,Latvia,administrative,24.7537645,56.8406494
+565,"Amalfi, Salerno, Campania, 84011, Italy",administrative,14.6026095,40.63367
+567,"Асянь, Алан-Бексерское сельское поселение, Vysokogorsky District, Tatarstan, Volga Federal District, 422723, Russia",hamlet,49.1082258,56.1537309
+569,Egypt,administrative,29.2675469,26.2540493
+570,"Montreal, Urban agglomeration of Montreal, Montreal (06), Quebec, Canada",administrative,-73.6103642,45.4972159
+571,"Cairo, Cairo Governorate, Egypt",city,31.243666,30.048819
+575,"Isfahan, بخش مرکزی شهرستان اصفهان, Isfahan County, Isfahan Province, 000000, Iran",city,51.6650002,32.6707877
+576,Iran,administrative,54.5643516,32.6475314
+577,"Dōtonbori, 心斎橋筋二丁目, Chuo, Osaka, Osaka Prefecture, 542-0071, Japan",neighbourhood,135.5015715,34.6690306
+580,"Lady Nelson Drive, Port Macquarie, Port Macquarie-Hastings Council, 2444, Australia",residential,152.8829519,-31.4387506
+581,"Sydney, Australia",administrative,151.2164539,-33.8548157
+582,"Sydney Opera House, 2, Macquarie Street, Darling Quarter, Sydney, Council of the City of Sydney, 2000, Australia",arts_centre,151.21512338473752,-33.85719805
+584,"Chair, Skopje, Municipality of Chair, City of Skopje, Skopje Region, Macedonia",administrative,21.437958505760896,42.01088855
+587,"The Cape, Cochise County, Arizona, United States of America",peak,-110.4020203,31.8228644
+589,"The Town, New Grimsby, Isles of Scilly, South West England, England, TR23 0PR, United Kingdom",hamlet,-6.3522296,49.9545977
+607,"Vancouver, Metro Vancouver Regional District, British Columbia, Canada",administrative,-123.1139529,49.2608724
+610,"Ölüdeniz, Fethiye, Muğla, Aegean Region, 48330, Turkey",suburb,29.1464384,36.5676329
+616,Czech,stream,-58.4840079,-62.1672126
+618,"Copán Ruinas, Calle Acropolis, NUEVA ESPERANZA CENTRO, Santa Rosa de Copán, Copán, Honduras",bus_stop,-89.1530435,14.8405742
+620,Honduras,administrative,-86.0755145,15.2572432
+624,"Positano, Salerno, Campania, 84017, Italy",administrative,14.4854955,40.6286581
+625,"Cambridge, Cambridgeshire, East of England, England, United Kingdom",administrative,0.1235817,52.2034823
+628,"Norway, Namsos, Trøndelag, Norway",administrative,11.52803643954819,64.5731537
+631,"Allende, Nuevo León, 67350, Mexico",administrative,-100.04520159024096,25.29883425
+632,"Miguel, Sagua de Tánamo, Holguín, Cuba",river,-75.3657814,20.4949011
+634,"Girona, Gironès, Girona, Catalonia, Spain",administrative,2.8199439,41.9793006
+642,"Truly, Herbsheim, Sélestat-Erstein, Bas-Rhin, Grand Est, Metropolitan France, 67230, France",locality,7.6526637,48.3487667
+643,"USSR, Rudaki Avenue, Dushanbe, Rudaki District, Dushanbe, 734000, Tajikistan",gift,68.7947829,38.5671241
+651,"Zefat, North District, 1311502, Israel",administrative,35.502451,32.9646301
+657,"Birmingham, West Midlands Combined Authority, West Midlands, England, United Kingdom",administrative,-1.9026911,52.4796992
+658,"Coventry, West Midlands Combined Authority, West Midlands, England, United Kingdom",administrative,-1.510477,52.4081812
+659,"Broadway, Worcestershire, West Midlands, England, WR12, United Kingdom",village,-1.8618609,52.0353825
+660,"England, United Kingdom",administrative,-0.5402402866174321,52.7954791
+661,"Warwickshire, West Midlands, England, United Kingdom",administrative,-1.5536905536661392,52.32130635
+662,"Worcestershire, West Midlands, England, United Kingdom",administrative,-2.156955513242221,52.2109495
+665,"Worcester, Worcester County, Massachusetts, United States of America",administrative,-71.8022934,42.2625932
+666,"Stratford-upon-Avon, Warwickshire, West Midlands, England, CV37 6AH, United Kingdom",town,-1.7063668,52.1927885
+671,"Middle Eastern, Great Middle Highway, Merchant's Area (South), Shawood Park, Worth Township, Butler County, Pennsylvania, 16051, United States of America",community_centre,-80.13873128940998,40.973790550000004
+682,"Screw, Rua Amalia Negri, Morada da Volta, Oliveira, Cachoeira do Sul, Região Geográfica Imediata de Cachoeira do Sul, Região Geográfica Intermediária de Santa Maria, Rio Grande do Sul, South Region, 96503-400, Brazil",works,-52.9090422,-30.0148809
+686,"Varanasi, Sadar, Varanasi, Uttar Pradesh, 221101, India",city,83.0076292,25.3356491
+688,British Indian Ocean Territory,administrative,72.1173961,-6.4157192
+691,"Kyiv, Ukraine",administrative,30.5241361,50.4500336
+700,"Quito, Pichincha, 17041, Ecuador",city,-78.5123274,-0.2201641
+701,Ecuador,administrative,-79.3666965,-1.3397668
+702,"Joke, Yumbe, Northern Region, Uganda",village,31.1525369,3.4946902
+703,"Cloud City, Mesa County, Colorado, United States of America",path,-108.5873973,39.3122826
