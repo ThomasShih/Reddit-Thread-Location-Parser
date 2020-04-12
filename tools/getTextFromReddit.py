@@ -8,17 +8,12 @@ class redditScraper(stringCleaner):
                                  ,client_secret=reddit_client_secret\
                                  ,user_agent=user_agent)
     def getSubmission(self,url):
-        self.submission = self.reddit.submission(url=url)
-
+        try: self.submission = self.reddit.submission(url=url)
+        except: self.submission = self.reddit.submission(id=url)
     def getComments(self):
         self.comments = []
         for parentComment in self.submission.comments:
             self.comments.append(parentComment.body)
-
-    # def cleanComments(self):
-    #     for index,comment in enumerate(self.comments):
-    #         comment = self.removeSpecialCharacters(comment).lower()
-    #         self.comments[index] = self.removeFillerWords(comment)
 
 if __name__ == "__main__":
     reddit = redditScraper()

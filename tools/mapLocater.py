@@ -8,8 +8,8 @@ class geoLocater:
             self.tries = tries
     def get(self,searchQuery):
         for i in range(self.tries):
-            try: return self.geolocator.geocode(searchQuery,language="en")
-            except Exception as e: print(Exception)
+            try: return self.geolocator.geocode(searchQuery,language="en",timeout=3)
+            except: print("Could not get location for {}, this is most likely a timeout issue.".format(searchQuery))
         return None
     def getFromComment(self,comment):
         results=[]

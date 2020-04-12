@@ -2,24 +2,50 @@ from tools.getTextFromReddit import redditScraper
 from tools.mapLocater import geoLocater
 from tools.plot import plot
 import pandas
+import sys
+import argparse
 from tqdm import tqdm
-method = 'geopy'
+
+class redditLocation:
+    def __init__(self,url,method='geopy'):
+        #initialize
+        self.url = url
+        self.reddit = redditScraper()
+        self.geoLocater = geoLocater(method)
+    def comments(self):
+        self.reddit.getSubmission(url)
+        self.reddit.getComments()
+    def getLocation(self,testConnections=False):
+        resultArray=[]
+        dataFrameColumns = ["display_name","type","lon","lat"]
+        for comment in tqdm(self.reddit.comments[0] if testConnections else self.reddit.comments,desc="Looking for addresses"):
+            #Iterate through possible search entries
+            resultArray = resultArray + self.geoLocater.getFromComment(comment)
+        
+        try: self.locations = pandas.DataFrame(resultArray)[dataFrameColumns].drop_duplicates()
+        except: 
+            print("Unable to build a dataframe of locations, this is most likely due to an error with connecting to Nominatim")
+            self.locations=pandas.DataFrame(columns=dataFrameColumns)
+        return self.locations
+    def plotLocations(self):
+        if self.locations.empty: print("Cannot Plot, Dataframe is empty")
+        else: plot(self.locations)
+    def export(self,fileName):
+        self.locations.to_csv(fileName)
 
 if __name__ == "__main__":
+    testConnections = False
+    url = sys.argv[1]
+    outputLocation = sys.argv[2]
+    print("Parsing reddit thread of: {} \n And outputting data to: {}".format(url,outputLocation))
+
     print("Grabbing Thread From Reddit")
-    reddit = redditScraper()
-    reddit.getSubmission("https://old.reddit.com/r/solotravel/comments/fyfz0l/the_most_atmospheric_city_youve_visited/")
-    reddit.getComments()
-    #reddit.cleanComments()
+    method = 'geopy'
+    redditLocation = redditLocation(url)
+    redditLocation.comments()
 
-    print("Intialitizing Geolocater")
-    geoLocater = geoLocater(method)
+    redditLocation.getLocation(testConnections=testConnections)
 
-    resultArray=[]
-    for comment in tqdm(reddit.comments,desc="Looking for addresses"):
-        #Iterate through possible search entries
-        resultArray = resultArray + geoLocater.getFromComment(comment)
+    redditLocation.export(outputLocation)
 
-    locations = pandas.DataFrame(resultArray)[["display_name","type","lon","lat"]].drop_duplicates()
-    locations.to_csv("results.csv")
-    plot(locations)
+    redditLocation.plotLocations()
