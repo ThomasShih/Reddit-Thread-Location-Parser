@@ -1,0 +1,6 @@
+tqdm==4.44.1
+pandas==1.0.3
+plotly==4.6.0
+geopy==1.21.0
+geograpy3==1.0.0
+praw==6.5.1

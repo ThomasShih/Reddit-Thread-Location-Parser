@@ -1,6 +1,6 @@
 from geopy.geocoders import Nominatim as geocoder
-from SearchEntryGenerator import SearchEntryGenerator
-from pprint import pprint as pp
+from tools.SearchEntryGenerator import SearchEntryGenerator
+
 class geoLocater:
     def __init__(self,method='geopy',tries=3):
         if method=='geopy':

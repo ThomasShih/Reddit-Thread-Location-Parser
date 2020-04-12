@@ -1,6 +1,6 @@
-from getTextFromReddit import redditScraper
-from mapLocater import geoLocater
-from plot import plot
+from tools.getTextFromReddit import redditScraper
+from tools.mapLocater import geoLocater
+from tools.plot import plot
 import pandas
 from tqdm import tqdm
 method = 'geopy'

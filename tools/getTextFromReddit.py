@@ -1,6 +1,6 @@
 import praw
 from credential import reddit_client_id,reddit_client_secret,user_agent
-from stringCleaner import stringCleaner
+from tools.stringCleaner import stringCleaner
 
 class redditScraper(stringCleaner):
     def __init__(self):
