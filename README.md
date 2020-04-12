@@ -28,3 +28,6 @@ user_agent="LocationGathering"
 '
 
 You can set up an reddit API account by going to https://www.reddit.com/prefs/apps
+
+
+Copyright: I don't know anything about this, do whatever you want with it :), I think all the libaries I used are all freeware type of copyrights!
