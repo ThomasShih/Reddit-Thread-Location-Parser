@@ -29,5 +29,18 @@ user_agent="LocationGathering"
 
 You can set up an reddit API account by going to https://www.reddit.com/prefs/apps
 
+This script uses these very helpful libaries:
+tqdm
+pandas
+plotly
+geopy
+geograpy3
+praw
 
-Copyright: I don't know anything about this, do whatever you want with it :), I think all the libaries I used are all freeware type of copyrights!
+Arguments
+-h, --help          show this help message and exit
+-t                  Extracts and looks up one location, for verification that everything is working
+-p                  Plots the results on a worldmap, to be displayed through your default browser
+-code -c            Reddit URL or post Code (typically 6 character code found in shortlink). Defaults to fzcrci.
+-outputLocation -o  Output file path and name of the parsed datafile, default csv if no extension is provided. Supports CSV,xlsx,json. Defaults to results.csv
+-v                  Verbose
