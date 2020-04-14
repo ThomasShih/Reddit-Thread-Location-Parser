@@ -15,7 +15,7 @@ parser.add_argument('-v',help="Verbose",action='store_true')
 args = parser.parse_args()
 
 if args.t:
-    if args.code == None: args.code = "fzcrci"
+    if args.code == None: args.code = "g195qf"
     if args.outputLocation == None: args.outputLocation = "test.csv"
 elif args.code == None or args.outputLocation == None:
     print("Not in testing mode, please provide values for code and outputLocation, -h for help")
